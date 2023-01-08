@@ -1,0 +1,533 @@
+header{
+    background-image: linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/header.jpg);
+
+}
+
+
+.title{
+    font-size: 6rem;
+    font-weight: bolder;
+    color: white;
+    font-family: Electrolize;
+
+}
+.navbar{
+    background-color: rgba(6, 57, 108, 1) ;
+    color: white;
+}
+.navimg{
+    width: 20%;
+    height: auto;    
+}
+@media screen and (min-width:700px){
+    .navimg{
+        width: 5%;
+        height: auto; 
+    
+    }
+}
+
+.collapse{
+
+    justify-content: space-between;
+}
+.navbar-toggler .navbar-toggler-icon{
+    width:50px;
+    height: 50px;
+}
+
+.navbar-nav{
+    font-weight: bolder;
+   
+}
+
+.nav-link{
+    color: white;
+   
+}
+
+.megalorem{
+    padding-top: 6%;
+    font-size: 7rem;
+
+    font-family: Electrolize;
+}
+@media screen and (max-width: 700px) {
+    .megalorem {
+        padding: 6%;
+        text-align: center;
+        font-size: 300%;
+
+    }
+}
+
+span{
+    font-size: 5rem;
+
+}
+
+.quote::before{
+
+    content: "'";
+    font-size: 100px;
+    color: rgba(6, 57, 108, 1);
+    position: relative;
+    left: -10%;
+    top: 20%;
+
+}
+
+
+
+@media screen and (max-width: 700px){
+    .quote::before{
+        display: none;
+    }
+}
+
+.h2art{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.divmegalorem{
+    padding-bottom: 10%;
+}
+
+/* INIZIO SECTION POWERLOREM MD-SCREEN */
+.power1{
+    height: 675px;
+    background-image: linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/power-plant-4712830_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.powerlorem{
+    font-size: 7rem;
+    font-family: Electrolize;
+}
+
+
+.list{
+    list-style-type: none;
+    padding-top: 10%;
+
+}
+
+.icon-list{
+    list-style-type: none;
+
+
+}
+
+.icone{
+
+    font-size: 3rem;
+
+}
+/* FINE SECTION POWERLOREMMD-SCREEN */
+
+
+
+/* ESCLUSIONE SECTION-MD SU MOBILE */
+@media screen and (max-width: 700px){
+    .power1{
+        display: none;
+    }
+}
+
+/* ESCLUSIONE SECTION-MOBILE SU MD */
+@media screen and (min-width: 700px){
+    .powermobile{
+        display: none;
+    }
+}
+
+/* INIZIO SECTION POWERLOREM SCREEN-MOBILE */
+.powermobile{
+    background-image: linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/power-plant-4712830_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.pwloremmobile{
+    font-family: Electrolize;
+    font-size: 4rem;
+}
+.iconem{
+    font-size: 2rem;
+}
+.row-mobile{
+    padding-top: 5rem;
+}
+
+/* FINE SECTION SCREEN-MOBILE */
+
+/* SECTION RIQUARDI SOVRAPPOSTI DESKTOP */
+
+.sectionpanel{
+    position: relative;
+
+}
+
+
+.panel{
+    width: 50%;
+    background-color: rgb(6, 57, 108);
+    color: white;
+    padding: 3%;
+    hight: 50%;
+    position: absolute;
+    top: -12%;
+    left: 6%;
+
+
+}
+.panelimg{
+    max-width: 80%;
+}
+.panelh2{
+    font-family: Electrolize;
+    font-size: 3rem;
+
+}
+
+.panelp{
+    padding-right: 100px;
+}
+.sidepanel{
+    background-color: white;
+    width: 50%;
+    padding: 3%;
+    hight: 50%;
+    font-weight: bolder;
+    position: absolute;
+    right: 0%;
+    z-index: 1;
+
+}
+
+/* FINE SECTION RIQUADRI SOVRAPPOSTI DESKTOP*/
+/* MEDIA QUERY RIQUADRI SOVRAPPOSTI */
+@media screen and (min-width: 700px){
+     .sectionpanel {height:100vh;}}
+@media screen and (max-width: 700px) {
+
+        .panel{
+            position: static;
+            width: 100%;
+        }
+        .panelp{
+            padding-right: 0px;
+            text-align: justify;
+
+        }
+
+        .sidepanel{
+            position: static;
+            width: 100%;
+            padding: 0;
+            z-index: 0;
+        }
+        .panelh2{
+            padding: 0%;
+        }
+        .sidepanelp{
+            text-align: justify;
+
+        }
+
+    }
+
+
+    /* DESCRIPTION SECTION */
+
+
+    .descrh2{
+        color:  rgb(6, 57, 108);
+        font-size: 4rem;
+        font-family: Electrolize;
+        padding-left: 5%;
+        font-weight: bold;
+    }
+
+    .descrp1{
+
+        padding: 5%;
+        padding-bottom: 0;
+
+
+    }
+    .descrp2{
+        padding: 5%;
+        padding-top: 0px;
+
+
+    }
+
+    .btn{
+        background-color:  rgb(6, 57, 108) ;
+        color: white;
+        font-weight: bold;
+
+
+    }
+    /* FINE DESCRIPTION SECTION  */
+
+    /* INIZIO USA SECTION */
+
+    .usah2{
+        color:  rgb(6, 57, 108) ;
+        font-family: Electrolize;
+        font-weight: bold;
+        font-size: 400%;
+
+    }
+    .usaimg{
+        max-width: 90%;
+    }
+
+    /* FINE USA SECTION */
+
+    /* INIZIO 4 CARD SECTION */
+
+    
+
+    .esploralink{
+        display: flex;
+    }
+    
+    
+
+
+    .card1{
+        background-image:linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/carsoncity.webp);
+        background-size:cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    /* CARD SHADOW */
+    .card:before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        bottom: 0;
+        left: 70px;
+        background: linear-gradient(to top left, rgba(255, 255, 255, 0.57) 50%, rgba(6, 57, 108, 1) 100% );
+        transform: translate3d(-100px, -100px, 0) scale(1);
+        filter: blur(0px);
+        opacity: var(1);
+        transition: opacity 0.3s;
+        
+    }
+    
+    .card2{
+        background-image:linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/dallas.webp);
+        background-size:cover;
+        background-repeat: no-repeat;
+        position:relative;
+    }
+    /* CARD2 SHADOW */
+ 
+    .card3{
+        background-image:linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/albany.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        position:relative;        
+    }
+    /* CARD3 SHADOW */
+  
+    .card4{
+        background-image:linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/sacramento.webp);
+        background-size:cover;
+        background-repeat: no-repeat;
+        position:relative;        
+    }
+    /* CARD4 SHADOW */
+ 
+    .cardh2{
+        font-family: Electrolize;
+        font-size: 3rem;
+    }
+    /* MEDIA QUERY CARDS  */
+    @media screen and (max-width: 700px) {
+        .card:before{
+            display:none;
+        }
+        .cardh2{
+            font-size: 2rem;
+        }
+ 
+    }
+    .cardh5{
+        font-size: 2rem;
+    }
+
+
+    /* SOME STUFF SECTION */
+
+    .stuff{
+        background-color:rgba(6, 57, 108, 1);
+  
+        background: linear-gradient(180deg, rgba(6, 57, 108, 1) 50%, #ffffff 50% );
+    }
+    .stuffh1{
+        justify-content: center;
+        font-family: Electrolize;
+        font-size: 5rem;
+    }
+
+  
+        
+        
+ 
+    .stufficon{
+        font-size:4rem;
+        padding-top:10%;
+        padding-bottom: 5%;
+        
+    }
+    .esplora{
+        font-family: Electrolize;
+        font-size: 1.5rem;        
+        color: white;
+        float: right;
+
+    }
+    
+
+    .stuff1{
+        background-image:linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/sun.png);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+    .stuff2{
+        background-image:linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/wind.png);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .stuff3{
+        background-image:linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/wave.png);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .stuff4{
+        background-image:linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/gas.png);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+    .stuff5{
+        background-image:linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/oil.png);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+    .stuff6{
+        background-image:linear-gradient(rgba(6, 57, 108, 0.57), rgba(6, 57, 108, 0.57)), url(./media/nuclear.png);
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    /* DOWNLOAD */
+
+    .dowh1{
+        color: rgba(6, 57, 108, 1);
+        font-family: Electrolize;
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    
+    .dowh2{
+        color: rgba(6, 57, 108, 1);
+        font-family: Electrolize;
+        font-size: 2.5rem;
+    }
+
+    .box{
+       
+        -webkit-box-shadow: 5px 5px 5px 5px rgba(163,163,163,0.7);
+        box-shadow: 5px 5px 30px 5px rgba(163,163,163,0.7);
+    }
+
+    /* DESCRIPTION */
+
+    .isto{
+        background-color: rgba(6, 57, 108, 1);
+       
+    }
+    .isto1{
+        width: 25%;
+        height: 3.5%;
+    }
+    .isto2{
+        width: 45%;
+        height: 3.5%;
+    }
+    .isto3{
+        width: 65%;
+        height: 3.5%;
+    }
+    .isto4{
+        width: 88%;
+        height: 3.5%;
+    }
+    .isto5{
+        width: 55%;
+        height: 3.5%;
+    }
+
+    /* FOOTER */
+
+    footer{
+        background-color: black;
+        
+    }
+    .footimg{
+        max-width: 10%;
+        height: auto;
+    }
+    .footh2{
+        font-family: Electrolize;
+        font-size: 4rem;
+    }
+    .footp{
+        font-size: 1.5rem;
+    }
+
+    .bluebox{
+        background-color:rgba(6, 57, 108, 1) ;
+    }
+    .footul{
+        list-style-type: none;
+        
+        
+    }
+    .footrow{
+        position: relative;
+    }
+    .bluebox{
+        padding-top: 4%;
+        padding-bottom: 5%;
+        position: absolute;
+        top:-15%;
+        left: 60%;
+    }
+    @media screen and (max-width:700px){
+        .bluebox{
+            position: static;
+        }
+    }
+
+    
+
+
+
+
+    
+
+
+
+
